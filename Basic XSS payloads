@@ -1,12 +1,1 @@
-<script>alert('XSS')</script>
-"><script>alert('XSS')</script>
-<svg/onload=alert('XSS')>
-<a
-href="javascript:alert('XSS')">Click me</a>
-<input type="text"
-onfocus="alert('XSS')">
-<iframe
-src="javascript:alert('XSS')"></iframe>
-<IMG SRC="javascript:alert('XSS');">
-<svg><script>alert('XSS')</script></svg>
-"><img src=x onerror=alert('XSS')>
+
